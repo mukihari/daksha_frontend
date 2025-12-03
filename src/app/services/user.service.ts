@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
     providedIn: 'root'
 })
 export class UserService {
-    private apiUrl = 'https://vercel.com/mukiharis-projects/daksha-api/HJ8r6pGwurYkN2caAXgnUb1vRnwt/users';
+    private apiUrl = 'https://daksha-api.vercel.app/users';
 
     constructor(private http: HttpClient) { }
 
