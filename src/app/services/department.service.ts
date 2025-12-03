@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
     providedIn: 'root'
 })
 export class DepartmentService {
-    private apiUrl = 'http://localhost:3000/dept';
+    private apiUrl = 'https://vercel.com/mukiharis-projects/daksha-api/HJ8r6pGwurYkN2caAXgnUb1vRnwt/dept';
 
     constructor(private http: HttpClient) { }
 

@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   providedIn: 'root'
 })
 export class AuthService {
-  private apiUrl = 'http://localhost:3000/auth'; 
+  private apiUrl = 'https://vercel.com/mukiharis-projects/daksha-api/HJ8r6pGwurYkN2caAXgnUb1vRnwt/auth'; 
   private tokenKey = 'auth_token';
   private isAuthenticatedSubject = new BehaviorSubject<boolean>(this.hasToken());
   currentUser = signal<any>(this.getUserFromStorage());
